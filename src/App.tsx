@@ -25,7 +25,7 @@ function App() {
   const handleSubmit = async () => {
     setLoading(true);
     try {
-      const URL = "https://mailspamchecker.pythonanywhere.com/check";
+      const URL = "https://mailspamchecker.pythonanywhere.com/";
       // const URL = "http://localhost:5000/check";
       const response = await fetch(URL, {
         method: "POST",
